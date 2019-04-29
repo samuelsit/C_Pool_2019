@@ -1,0 +1,7 @@
+Credentials cache: API:FB2EBA9B-7429-4DD9-990C-D8EB7AEF6338
+        Principal: ssitruk@42.FR
+
+  Issued                Expires               Principal
+Feb  4 14:53:32 2019  Feb 11 14:53:32 2019  krbtgt/42.FR@42.FR
+Feb  4 14:53:34 2019  Feb 11 14:53:32 2019  ldap/ldap-proxy.42.fr@42.FR
+Feb  4 14:53:35 2019  Feb 11 14:53:32 2019  HTTP/student-storage-1.42.fr@42.FR

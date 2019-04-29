@@ -1,0 +1,43 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_str_is_uppercase.c                              :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ssitruk <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/02/12 19:25:15 by ssitruk           #+#    #+#             */
+/*   Updated: 2019/02/13 20:46:55 by ssitruk          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+int		check(char *str)
+{
+	int i;
+
+	i = 0;
+	while (str[i] != '\0')
+	{
+		if (!((str[i] >= 'A' && str[i] <= 'Z')))
+			return (1);
+		i++;
+	}
+	return (0);
+}
+
+int		ft_str_is_uppercase(char *str)
+{
+	int i;
+
+	i = 0;
+	if (check(str) == 1)
+		return (0);
+	if (str[i] == '\0')
+		return (1);
+	while (str[i] != '\0')
+	{
+		if (str[i] >= 'A' && str[i] <= 'Z')
+			return (1);
+		i++;
+	}
+	return (0);
+}
